@@ -1,0 +1,20 @@
+footer {
+  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  padding: 50px 50px;
+  color: greenyellow;
+}
+.list1 ul li,
+.list2 ul li,
+.list3 ul li,
+.list4 ul li {
+  display: list-item;
+  padding: 10px;
+}
+.list1 ul li span,
+.list2 ul li span,
+.list3 ul li span,
+.list4 ul li span{
+    margin-bottom: 20px;
+}

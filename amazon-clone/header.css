@@ -1,0 +1,112 @@
+header {
+  background-color: #232f3e;
+  /* display: inline; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* width: 103%; */
+  padding: 12px 20px;
+  height: 45px;
+}
+header .logo img {
+  width: 104px;
+  margin-right: 20px;
+  
+}
+header .location__icon {
+  color: white;
+  /* padding-bottom: 15px; */
+
+  /* position: relative;
+  bottom: 9px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .location__icon img {
+  width: 15px;
+  margin-right: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* position: relative;
+  top: 15px; */
+}
+header .location__icon span {
+  font-weight: 700;
+  text-align: right;
+  justify-content: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+
+  /* position: relative;
+  left: 30px; */
+}
+header .search{
+    /* position: relative; */
+    /* bottom: 15px; */
+
+    /* left: 60px; */
+
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header .search input {
+  margin-left: 20px;
+  width: 50vw;
+  height: 40px;
+  text-indent: 20px;
+  font-size: 18px;
+}
+header .search img {
+  background-color: goldenrod;
+  width: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  /* position: relative;
+  top: 16px;
+  right: 5px; */
+}
+header ul{
+    text-align: center;
+    /* align-items: flex-end; */
+      /* text-align: right; */
+    /* position: relative;
+    left: 130px; */
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+    /* flex-wrap: nowrap; */
+    float: right;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* position: relative; */
+    /* left: 130px; */
+}
+ul li{
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+
+    margin-right: 10px;
+    /* float: right; */
+    /* text-align: right; */
+}
+ul li span{
+    font-weight: 700;
+}
+ul li img{
+    width: 50px;
+}

@@ -1,0 +1,19 @@
+nav{
+    /* position: relative;
+    top: 135px; */
+    background-color: #3a4c63;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+}
+nav li{
+display: inline-block;
+list-style-type: none;
+margin-right: 20px;
+}
+nav span{
+    font-weight: 700;
+    float: right;
+    padding-right: 20px;
+}
