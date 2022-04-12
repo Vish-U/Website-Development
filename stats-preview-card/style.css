@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  margin-top: 88px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 88px;
+}
+main {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
+  overflow: hidden;
+}
+.paragraph {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 47px;
+  margin-top: 40px;
+  text-align: center;
+
+  margin-left: 37px;
+  margin-right: 37px;
+}
+.stats {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.stats ul li .stats__templates1 {
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 100;
+  margin-bottom: 35px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.stats ul li .stats__templates2 {
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 100;
+  margin-bottom: 35px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.stats ul li .stats__templates3 {
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 100;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.stats ul li {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  list-style-type: none;
+}
+.title span__title {
+  color: hsl(277, 64%, 61%);
+}
+
+.image img {
+  width: 100%;
+  height: 240px;
+  opacity: 0.3;
+  overflow: hidden;
+}
+.image {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+
+  background-color: hsl(277, 64%, 61%);
+}
+.attribution a {
+  color: cyan;
+  text-align: center;
+  justify-content: center;
+}
+/* width: 386px;
+    height: 240px; */
