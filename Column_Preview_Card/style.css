@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  margin-top: 88px;
+  margin-bottom: 88px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card .sedans {
+  background: hsl(31, 77%, 52%);
+}
+.card .suv {
+  background: hsl(184, 100%, 22%);
+}
+.card .luxury {
+  background: hsl(179, 100%, 13%);
+}
+.card .sedans .sedans__title {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 32px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.card .suv .suv__title {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 32px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.card .luxury .luxury__title {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 32px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.card .sedans {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 18px;
+}
+.card .suv {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 18px;
+}
+.card .luxury {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 18px;
+}
+.card .sedans .sedans__details {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.card .suv .suv__details {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.card .luxury .luxury__details {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.card .sedans .sedans__img img {
+  margin-left: 50px;
+  margin-top: 45px;
+}
+.card .suv .suv__img img {
+  margin-left: 50px;
+  margin-top: 45px;
+}
+.card .luxury .luxury__img img {
+  margin-left: 50px;
+  margin-top: 45px;
+}
+.card .sedans .sedans__button a {
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  text-decoration: none;
+  border-radius: 30px;
+  height: 45px;
+  width: 145px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 45px;
+  margin-left: 50px;
+}
+.card .suv .suv__button a {
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+  text-decoration: none;
+  border-radius: 30px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  margin-bottom: 45px;
+  margin-left: 50px;
+}
+.card .luxury .luxury__button a {
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+  text-decoration: none;
+  border-radius: 30px;
+  height: 45px;
+  width: 145px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 45px;
+  margin-left: 50px;
+}
+.card .sedans .sedans__button a:hover {
+  background: hsl(31, 77%, 52%);
+  border: 2px solid white;
+  color: white;
+}
+.card .suv .suv__button a:hover {
+  background: hsl(184, 100%, 22%);
+  border: 2px solid white;
+  color: white;
+}
+.card .luxury .luxury__button a:hover {
+  background: hsl(179, 100%, 13%);
+  border: 2px solid white;
+  color: white;
+}
